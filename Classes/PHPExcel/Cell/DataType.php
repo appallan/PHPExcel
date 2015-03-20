@@ -39,6 +39,7 @@ class PHPExcel_Cell_DataType
     const TYPE_STRING2  = 'str';
     const TYPE_STRING   = 's';
     const TYPE_FORMULA  = 'f';
+    const TYPE_FORMULA_ARRAY = 't';
     const TYPE_NUMERIC  = 'n';
     const TYPE_BOOL     = 'b';
     const TYPE_NULL     = 'null';
