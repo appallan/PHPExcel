@@ -241,6 +241,9 @@ class PHPExcel_Cell
 			case PHPExcel_Cell_DataType::TYPE_FORMULA:
 				$this->_value = (string)$pValue;
 				break;
+                        case PHPExcel_Cell_DataType::TYPE_FORMULA_ARRAY:
+				$this->_value = (string)$pValue;
+				break;
 			case PHPExcel_Cell_DataType::TYPE_BOOL:
 				$this->_value = (bool)$pValue;
 				break;
